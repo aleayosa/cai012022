@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Agenda
+namespace Agenda.Dominio.Entidades
 {
     class Agenda
     {
@@ -27,10 +27,11 @@ namespace Agenda
             this._capacidad = capacidad;
             this._propietario = propietario;
             this._tipo = tipo;
-            this._listaContactos = contactos;            
+            this._listaContactos = contactos;
         }
 
-        public void AgregarContacto(List<Contacto> listaDeContactos) {
+        public void AgregarContacto(List<Contacto> listaDeContactos)
+        {
 
             Console.WriteLine("Ingrese el nombre del contacto");
             string nombre = Console.ReadLine().ToUpper();
@@ -46,8 +47,6 @@ namespace Agenda
             listaDeContactos.Add(nuevo);
         }
 
-        
-    }
 
-    
+    }
 }

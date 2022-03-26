@@ -4,19 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Agenda
+namespace Agenda.Dominio.Entidades
 {
-   class Contacto
+    public class Contacto
     {
-        public static int id=1;
+        public static int id = 1;
         private string _nombre;
         private string _direccion;
         private int _telefono;
         private DateTime _fechaNacimiento;
         private string _mail;
-    
 
-        public Contacto() { 
+
+        public Contacto()
+        {
         }
 
         public Contacto(string nombre, string direccion, int telefono, DateTime cumple, string mail)
@@ -30,7 +31,7 @@ namespace Agenda
 
         }
 
-        public string Nombre{ get; set; }
+        public string Nombre { get; set; }
         public string Direccion { get; set; }
         public int Telefono { get; set; }
         public DateTime FechaNacimiento { get; set; }
@@ -38,16 +39,16 @@ namespace Agenda
         public int Id { get; }
 
         public static int Edad(Contacto con)
-        {            
-            int edad = (DateTime.Now - con._fechaNacimiento).Days/365;
+        {
+            int edad = (DateTime.Now - con._fechaNacimiento).Days / 365;
             return edad;
         }
 
         public void Mostrar(Contacto con)
         {
-            Console.WriteLine("Nombre: " + con._nombre+"\n Direccion: " + con._direccion + "\n Teléfono: " + con._telefono + "\n Mail: "+con._mail);
+            Console.WriteLine("Nombre: " + con._nombre + "\n Direccion: " + con._direccion + "\n Teléfono: " + con._telefono + "\n Mail: " + con._mail);
         }
 
-        
+
     }
 }
