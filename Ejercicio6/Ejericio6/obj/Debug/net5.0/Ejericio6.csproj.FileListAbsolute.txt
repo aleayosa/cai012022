@@ -1,0 +1,15 @@
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\bin\Debug\net5.0\Ejericio6.exe
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\bin\Debug\net5.0\Ejericio6.deps.json
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\bin\Debug\net5.0\Ejericio6.runtimeconfig.json
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\bin\Debug\net5.0\Ejericio6.runtimeconfig.dev.json
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\bin\Debug\net5.0\Ejericio6.dll
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\bin\Debug\net5.0\ref\Ejericio6.dll
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\bin\Debug\net5.0\Ejericio6.pdb
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\obj\Debug\net5.0\Ejericio6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\obj\Debug\net5.0\Ejericio6.AssemblyInfoInputs.cache
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\obj\Debug\net5.0\Ejericio6.AssemblyInfo.cs
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\obj\Debug\net5.0\Ejericio6.csproj.CoreCompileInputs.cache
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\obj\Debug\net5.0\Ejericio6.dll
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\obj\Debug\net5.0\ref\Ejericio6.dll
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\obj\Debug\net5.0\Ejericio6.pdb
+C:\Users\aleay\Documents\GitHub\cai012022\Ejericio6\Ejericio6\obj\Debug\net5.0\Ejericio6.genruntimeconfig.cache

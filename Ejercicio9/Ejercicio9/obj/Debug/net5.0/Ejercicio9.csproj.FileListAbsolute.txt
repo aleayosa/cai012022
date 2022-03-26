@@ -1,0 +1,15 @@
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\bin\Debug\net5.0\Ejercicio9.exe
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\bin\Debug\net5.0\Ejercicio9.deps.json
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\bin\Debug\net5.0\Ejercicio9.runtimeconfig.json
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\bin\Debug\net5.0\Ejercicio9.runtimeconfig.dev.json
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\bin\Debug\net5.0\Ejercicio9.dll
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\bin\Debug\net5.0\ref\Ejercicio9.dll
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\bin\Debug\net5.0\Ejercicio9.pdb
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\obj\Debug\net5.0\Ejercicio9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\obj\Debug\net5.0\Ejercicio9.AssemblyInfoInputs.cache
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\obj\Debug\net5.0\Ejercicio9.AssemblyInfo.cs
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\obj\Debug\net5.0\Ejercicio9.csproj.CoreCompileInputs.cache
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\obj\Debug\net5.0\Ejercicio9.dll
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\obj\Debug\net5.0\ref\Ejercicio9.dll
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\obj\Debug\net5.0\Ejercicio9.pdb
+C:\Users\aleay\Documents\GitHub\cai012022\Ejercicio9\Ejercicio9\obj\Debug\net5.0\Ejercicio9.genruntimeconfig.cache
