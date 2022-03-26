@@ -8,13 +8,12 @@ namespace Agenda.Dominio.Entidades
 {
     public class Contacto
     {
-        public static int id = 1;
+        public static int id = 0;
         private string _nombre;
         private string _direccion;
         private int _telefono;
         private DateTime _fechaNacimiento;
         private string _mail;
-
 
         public Contacto()
         {
@@ -28,15 +27,26 @@ namespace Agenda.Dominio.Entidades
             this._telefono = telefono;
             this._fechaNacimiento = cumple;
             this._mail = mail;
-
         }
 
-        public string Nombre { get; set; }
-        public string Direccion { get; set; }
-        public int Telefono { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        public string Mail { get; set; }
-        public int Id { get; }
+        public string Nombre { 
+            get => _nombre; 
+        }
+        public string Direccion { 
+            get => _direccion; 
+        }
+        public int Telefono {
+            get => _telefono;
+        }
+        public DateTime FechaNacimiento {
+            get => _fechaNacimiento;
+        }
+        public string Mail {
+            get => _direccion;
+        }
+        public int Id { 
+            get => id; 
+        }
 
         public static int Edad(Contacto con)
         {

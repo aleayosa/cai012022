@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\Agenda.cs" />
+    <Compile Include="Entidades\AgendaContactos.cs" />
     <Compile Include="Entidades\Contacto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,2 @@
+C:\Users\aleay\Documents\GitHub\cai012022\Agenda\Agenda.Consola\obj\Debug\Agenda.Consola.csproj.AssemblyReference.cache
+C:\Users\aleay\Documents\GitHub\cai012022\Agenda\Agenda.Consola\obj\Debug\Agenda.Consola.csproj.CoreCompileInputs.cache
