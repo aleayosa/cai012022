@@ -1,0 +1,6 @@
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Dominio\bin\Debug\NuevaAgenda.Dominio.dll
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Dominio\bin\Debug\NuevaAgenda.Dominio.pdb
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Dominio\obj\Debug\NuevaAgenda.Dominio.csproj.AssemblyReference.cache
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Dominio\obj\Debug\NuevaAgenda.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Dominio\obj\Debug\NuevaAgenda.Dominio.dll
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Dominio\obj\Debug\NuevaAgenda.Dominio.pdb

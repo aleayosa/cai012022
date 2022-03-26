@@ -1,0 +1,10 @@
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Consola\bin\Debug\NuevaAgenda.Consola.exe.config
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Consola\bin\Debug\NuevaAgenda.Consola.exe
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Consola\bin\Debug\NuevaAgenda.Consola.pdb
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Consola\bin\Debug\NuevaAgenda.Dominio.dll
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Consola\bin\Debug\NuevaAgenda.Dominio.pdb
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Consola\obj\Debug\NuevaAgenda.Consola.csproj.AssemblyReference.cache
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Consola\obj\Debug\NuevaAgenda.Consola.csproj.CoreCompileInputs.cache
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Consola\obj\Debug\NuevaAgenda.Consola.csproj.CopyComplete
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Consola\obj\Debug\NuevaAgenda.Consola.exe
+C:\Users\aleay\Documents\GitHub\cai012022\NuevaAgenda\NuevaAgenda.Consola\obj\Debug\NuevaAgenda.Consola.pdb
