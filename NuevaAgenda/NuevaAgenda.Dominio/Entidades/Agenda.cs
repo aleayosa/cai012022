@@ -60,5 +60,17 @@ namespace NuevaAgenda.Dominio.Entidades
             _listaContactos.Remove(_listaContactos[id - 1]);
         }
 
+        public List<Contacto> BuscarContactoPorNombre(string clave, Agenda ag)
+        {
+            List<Contacto> lista = new List<Contacto>();
+            foreach(var i in ag.ListaDeContactos)
+            {
+                if (i.Nombre.Contains(clave))
+                {
+                    lista.Add(i);
+                }
+            }
+            return lista;
+        }
     }
 }

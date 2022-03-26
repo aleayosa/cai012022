@@ -13,8 +13,21 @@ namespace NuevaAgenda.Consola
         {
             Agenda ag = new Agenda(10,"Alejandra", "Digital");
             AgregarContactos(ag);
+            BuscarContacto(ag);
         }
+        public static void BuscarContacto(Agenda ag)
+        {
+            Console.WriteLine("Ingrese el nombre que desea buscar");
+            string clave = Console.ReadLine();
+            List<Contacto> listado = new List<Contacto>();
+            listado = ag.BuscarContactoPorNombre(clave, ag);
 
+            foreach(var i in listado)
+            {
+                Console.WriteLine("Contacto" + i.Id + ":\nNombre: " + i.Nombre + "\nDireccion: " + i.Direccion + "\nTelefono: " + i.Telefono + "\nMail: " + i.Mail);
+            }
+            Console.ReadKey();
+        }
         public static void AgregarContactos(Agenda ag)
         {
             bool seguir = true;
@@ -33,7 +46,7 @@ namespace NuevaAgenda.Consola
                 Contacto nuevo = new Contacto(nombre, direccion, telefono, cumple, mail);
                 ag.AgregarContacto(nuevo);
 
-                Console.WriteLine("¿Desea agregar otro contacto?");
+                Console.WriteLine("¿Desea agregar otro contacto?\n 1) SI\n 2) NO");
                 int opcion = int.Parse(Console.ReadLine());
                 if (opcion == 2)
                 {
