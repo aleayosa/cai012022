@@ -1,0 +1,6 @@
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.Entidades\bin\Debug\NuevoTablero.Entidades.dll
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.Entidades\bin\Debug\NuevoTablero.Entidades.pdb
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.Entidades\obj\Debug\NuevoTablero.Entidades.csproj.AssemblyReference.cache
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.Entidades\obj\Debug\NuevoTablero.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.Entidades\obj\Debug\NuevoTablero.Entidades.dll
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.Entidades\obj\Debug\NuevoTablero.Entidades.pdb

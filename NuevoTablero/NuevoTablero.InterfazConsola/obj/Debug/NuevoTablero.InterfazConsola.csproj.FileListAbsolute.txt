@@ -1,0 +1,10 @@
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.InterfazConsola\bin\Debug\NuevoTablero.InterfazConsola.exe.config
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.InterfazConsola\bin\Debug\NuevoTablero.InterfazConsola.exe
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.InterfazConsola\bin\Debug\NuevoTablero.InterfazConsola.pdb
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.InterfazConsola\bin\Debug\NuevoTablero.Entidades.dll
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.InterfazConsola\bin\Debug\NuevoTablero.Entidades.pdb
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.InterfazConsola\obj\Debug\NuevoTablero.InterfazConsola.csproj.AssemblyReference.cache
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.InterfazConsola\obj\Debug\NuevoTablero.InterfazConsola.csproj.CoreCompileInputs.cache
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.InterfazConsola\obj\Debug\NuevoTablero.InterfazConsola.csproj.CopyComplete
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.InterfazConsola\obj\Debug\NuevoTablero.InterfazConsola.exe
+C:\Users\aleay\Documents\GitHub\cai012022\NuevoTablero\NuevoTablero.InterfazConsola\obj\Debug\NuevoTablero.InterfazConsola.pdb
