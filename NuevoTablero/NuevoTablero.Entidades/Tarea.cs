@@ -58,6 +58,14 @@ namespace NuevoTablero.Entidades
             _estado = e;
         }
 
-        
+        public bool IsFinalizada()
+        {
+            bool final=false;
+            if(FechaAlta < FechaRealizacion)
+            {
+                final = true;
+            }
+            return final;
+        }
     }
 }
