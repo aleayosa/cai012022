@@ -15,13 +15,13 @@ namespace NuevoTablero.Entidades
         private DateTime _fechaAlta;
         private DateTime _fechaRealizacion;
 
-        public Tarea(int cod, string desc, string estado, int orden)
+        public Tarea(int cod, string desc, string estado, int orden, DateTime date)
         {
             this._codigo = cod; 
             this._descripcion = desc;
             this._estado = estado;
             this._orden = orden;
-            this._fechaAlta = DateTime.Now;
+            this._fechaAlta = date;
 
         }
         public int Codigo
@@ -55,7 +55,12 @@ namespace NuevoTablero.Entidades
 
         public void CambiarEstado(string e)
         {
-            _estado = e;
+            _estado = e;            
+        }
+
+        public void CambiarFechaRealizacion(DateTime d)
+        {
+            _fechaRealizacion = d;
         }
 
         public bool IsFinalizada()

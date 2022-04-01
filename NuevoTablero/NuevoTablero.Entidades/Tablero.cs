@@ -50,6 +50,13 @@ namespace NuevoTablero.Entidades
         {
             Tarea t = _tareas[n-1];
             t.CambiarEstado(e);
+            if (e == "FINALIZADO")
+            {
+                Console.WriteLine("Ingrese la fecha de realizacion");
+                DateTime date = DateTime.Parse(Console.ReadLine());
+                t.CambiarFechaRealizacion(date);
+            }
+            Console.Clear();
             Console.WriteLine("El estado fue modificado.");
         }
 
@@ -79,6 +86,15 @@ namespace NuevoTablero.Entidades
         {
             Tarea i = _tareas[cod-1];
             Console.WriteLine("Tarea " + i.Codigo + ":\nDescripcion: " + i.Descripcion + "\nEstado: " + i.Estado + "\nOrden: " + i.Orden + "\nFecha de Alta: " + i.FechaAlta + "\nFecha de Realizacion: " + i.FechaRealizacion + "\n\n\n");
+        }
+    
+        public void PreguntarFinalizacion(int cod)
+        {
+            Tarea i = _tareas[cod - 1];
+            if (i.IsFinalizada())
+                Console.WriteLine("La tarea se encuentra finalizada");
+            else
+                Console.WriteLine("La tarea aún no finalizó");
         }
     }
 }
