@@ -88,6 +88,11 @@ namespace NuevoTablero.Entidades
             Console.WriteLine("Tarea " + i.Codigo + ":\nDescripcion: " + i.Descripcion + "\nEstado: " + i.Estado + "\nOrden: " + i.Orden + "\nFecha de Alta: " + i.FechaAlta + "\nFecha de Realizacion: " + i.FechaRealizacion + "\n\n\n");
         }
     
+        public Tarea MostrarUltimo()
+        {
+            Tarea t =_tareas.OrderBy(d => d.FechaAlta).FirstOrDefault();
+            return t;
+        }
         public void PreguntarFinalizacion(int cod)
         {
             Tarea i = _tareas[cod - 1];
