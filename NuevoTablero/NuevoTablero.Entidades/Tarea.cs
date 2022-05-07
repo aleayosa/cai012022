@@ -6,25 +6,25 @@ using System.Threading.Tasks;
 
 namespace NuevoTablero.Entidades
 {
-    public class Tarea
+    public abstract class Tarea
     {
-        private static int contador = 0;
-        private int _codigo;
-        private string _descripcion;
-        private string _estado;
-        private int _orden;
-        private DateTime _fechaAlta;
-        private DateTime _fechaRealizacion;
+        protected int _codigo;
+        protected string _descripcion;
+        protected string _estado;
+        protected int _orden;
+        protected DateTime _fechaAlta;
+        protected DateTime _fechaRealizacion;
+        protected string _tipo;
 
-        public Tarea(string desc, string estado, int orden, DateTime date)
+        public Tarea(int codigo, string desc, string estado, int orden, DateTime date)
         {
-            contador++;
-            this._codigo = contador; 
+            this._codigo = codigo;
             this._descripcion = desc;
             this._estado = estado;
             this._orden = orden;
             this._fechaAlta = date;
         }
+
         public int Codigo
         {
             get => _codigo;
@@ -49,9 +49,14 @@ namespace NuevoTablero.Entidades
         {
             get => _fechaRealizacion;
         }
+        public string Tipo
+        {
+            get => _tipo;
+        }
+
         public void CambiarEstado(string e)
         {
-            _estado = e;            
+            _estado = e;
         }
         public void CambiarFechaRealizacion(DateTime d)
         {
@@ -59,12 +64,14 @@ namespace NuevoTablero.Entidades
         }
         public bool IsFinalizada()
         {
-            bool final=false;
-            if(FechaAlta < FechaRealizacion)
+            bool final = false;
+            if (FechaAlta < FechaRealizacion)
             {
                 final = true;
             }
             return final;
         }
     }
+
+
 }

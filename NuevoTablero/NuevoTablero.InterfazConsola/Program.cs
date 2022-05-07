@@ -20,21 +20,19 @@ namespace NuevoTablero.InterfazConsola
             //. Se debe poder Consultar la tarea más antigua. LISTO
             //. Se debe poder cambiar el estado de una tarea. LISTO
 
-            //Extra: divididas en tareas comunes y tareas especiales
+            //Extra: divididas en tareas comunes y tareas especiales LISTO
 
             Tablero tab = new Tablero("Cocina nueva", "Listado de cosas que necesito para hacer una nueva cocina", DateTime.Now);
-            Tarea tar1 = new Tarea("COMPRAR MESADA", "PENDIENTE", 1, new DateTime(2020,05,15));
-            tab.AgregarTarea(tar1);
-            Tarea tar2 = new Tarea("COMPRAR BAJOMESADA Y ALTOMESADA", "PENDIENTE", 2, new DateTime(2021,02,10));
-            tab.AgregarTarea(tar2);
-            Tarea tar3 = new Tarea("COMPRAR GRIFERIA", "PENDIENTE", 3, new DateTime(2019,10,03));
-            tab.AgregarTarea(tar3);
-            Tarea tar4 = new Tarea("COMPRAR AZULEJOS", "PENDIENTE", 4, new DateTime(2022,05, 01));
-            tab.AgregarTarea(tar4);
+            try
+            {
 
-            MenuPrincipal(tab);
+                MenuPrincipal(tab);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
-            Console.ReadKey();
         }
 
         public static void MenuPrincipal(Tablero tab)
@@ -78,10 +76,13 @@ namespace NuevoTablero.InterfazConsola
                 default:
                     break;
             }
+
         }
         public static void AgregarTarea(Tablero tab)
         {
             Console.Clear();
+
+
             Console.WriteLine("Ingrese la descripcion de la tarea");
             string desc = Console.ReadLine().ToUpper();
             Console.WriteLine("Ingrese el estado");
@@ -90,10 +91,21 @@ namespace NuevoTablero.InterfazConsola
             int ord = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese la fecha de alta");
             DateTime fecha = DateTime.Parse(Console.ReadLine());
-            Tarea nueva = new Tarea(desc, est, ord, fecha);
-
-            tab.AgregarTarea(nueva);
-
+            Console.WriteLine("¿Qué tipo de tarea es? 1) Especial 2) Comun");
+            int tipo = int.Parse(Console.ReadLine());
+            if (tipo == 2)
+            {
+                string resp = Console.ReadLine().ToUpper();
+                Console.WriteLine("Ingrese el responsable");
+                tab.AgregarTareaComun(desc, est, ord, fecha, resp);
+            }
+            else
+            {
+                Console.WriteLine("Ingrese la fecha límite");
+                DateTime lim = DateTime.Parse(Console.ReadLine());
+                tab.AgregarTareaEspecial(desc, est, ord, fecha, lim);
+            }
+                        
             Console.Clear();
             tab.MostrarListado(tab.Tareas);
             Console.ReadKey();
@@ -131,7 +143,7 @@ namespace NuevoTablero.InterfazConsola
         public static void MostrarUltimo(Tablero tab)
         {
             Console.Clear();
-           
+
             Tarea r = tab.MostrarUltimo();
             tab.MostrarTarea(r.Codigo);
             Console.ReadKey();
